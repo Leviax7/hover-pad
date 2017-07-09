@@ -43,3 +43,14 @@ border-radius: 10px;
 .clear{
 	margin: 0px 0px 0px 20px;
 }
+
+#pad-container{
+border: 1px solid;
+width: 480px;
+height: 480px;
+margin: 15px auto;
+}
+
+.test{
+	border: 1px solid;
+}
