@@ -7,7 +7,14 @@
 body{
 	background-color:#BEC8D9;
 }
+button:focus {
+	outline:0;
+	box-shadow: 0 0 2pt 1pt #647189;
 
+}
+button:active{
+	transform: translateY(1px);
+}
 
 #titlebar{
 	background-color: #889ABE;
@@ -30,10 +37,12 @@ padding: 7px 16px 7px 16px;
 font-size: 20px;
 font-family: 'Open Sans', sans-serif;
 color: #E2E5E5;
-background-color: #7889AD;
-border: 2px solid #647189;
-border-radius: 10px;
+background: linear-gradient(#7889AD, #5D697F);
+border: 1px solid #647189;
 
+}
+.highlighted{
+	background-color: #4C566C;
 }
 
 .pad-size{
@@ -45,10 +54,10 @@ border-radius: 10px;
 }
 
 #pad-container{
-border: 1px solid;
+border: 1px solid #4C566C;
 width: 500px;
 height: 500px;
-margin: 15px auto;
+margin: 25px auto;
 
 }
 
@@ -56,6 +65,5 @@ margin: 15px auto;
 	float: left;
 	margin: 0px;
 	padding: 0px;
-	outline: 1px solid black;	
 	
 }
