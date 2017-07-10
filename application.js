@@ -28,9 +28,6 @@ $('.clear').on('click', function(){
 	$('.square').css('background-color', 'transparent');
 });
 
-$('.button').hover(function(){
-$(this).toggleClass('highlighted');
-});
 $('.button').mouseup(function(){ 
 	this.blur();
 });
