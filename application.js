@@ -8,3 +8,7 @@ for (var i = 0; i < 16 ; i++) {
 $('.square').on('mouseenter', function(){
 	$(this).css('background-color', 'black');
 });
+
+$('.clear').on('click', function(){
+	$('.square').css('background-color', 'transparent');
+});
