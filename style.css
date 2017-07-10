@@ -46,11 +46,16 @@ border-radius: 10px;
 
 #pad-container{
 border: 1px solid;
-width: 480px;
-height: 480px;
+width: 500px;
+height: 500px;
 margin: 15px auto;
+
 }
 
-.test{
-	border: 1px solid;
+.square{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	outline: 1px solid black;	
+	
 }
